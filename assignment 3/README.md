@@ -29,9 +29,3 @@ The main goals of this portfolio:
 - Serve as an online resume
 - Allow people to connect with me easily
 - Demonstrate my MERN stack development abilities
-
-
-
-## 📜 License
-
-This project is open source and available under the **MIT License**.
