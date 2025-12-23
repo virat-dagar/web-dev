@@ -1,0 +1,158 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+h1{
+  color:#e3eff7
+
+}
+
+h2 {
+  color: #1e3a8a;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+#hero {
+  text-align: center;
+  padding: 3em 1em;
+  background-color: #dbeafe;
+  border-bottom: 3px solid #1e3a8a;
+}
+
+#about {
+  padding: 2em;
+  text-align: center;
+}
+
+#about img {
+  border-radius: 50%;
+  border: 3px solid #1e3a8a;
+  margin-bottom: 1em;
+}
+
+#projects {
+  background-color: #eff6ff;
+  padding: 2em;
+  border-top: 2px solid #93c5fd;
+}
+
+#skills {
+  padding: 2em;
+  text-align: center;
+}
+
+#skills table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+#skills th, #skills td {
+  border: 1px solid #1e3a8a;
+  padding: 10px;
+}
+
+#skills th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+#contact {
+  background-color: #e0f2fe;
+  padding: 2em;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #93c5fd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+hr {
+  border: 1px solid #93c5fd;
+  width: 80%;
+  margin: 2em auto;
+}
